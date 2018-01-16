@@ -1,0 +1,140 @@
+{
+    "project_logo": "logo.svg",
+    "project_favicon": "favicon.png",
+    "project_name": "Chefkoch Design System",
+    "project_url": null,
+    "copyright_start_year": "2017",
+    "client_name": null,
+    "client_url": "http://www.chefkoch.de",
+    "creators": [
+        {
+            "name": "Team Geist",
+            "url": "http://www.chefkoch.de"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#618F30",
+        "background_color": "#F6F5F2",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": false,
+        "show_version": false,
+        "max_width": null,
+        "titles": {
+            "library_title": "Chefkoch Design System",
+            "pages_title": "Übersicht",
+            "components_title": "Komponenten"
+        }
+    },
+    "assets": {
+        "css": [
+            "./build/chefkoch-design-system.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Benutzung",
+                "file": "./pages/usage.md"
+            },
+            {
+                "name": "accessibility-matrix",
+                "title": "Barrierefreie Farben",
+                "file": "./pages/accessibility-matrix.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "typography",
+            "title": "Typographie",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "headings",
+                    "title": "Headings"
+                }
+            ]
+        },
+        {
+            "name": "colors",
+            "title": "Farben",
+            "components": [
+                {
+                    "group": "colors",
+                    "name": "colors",
+                    "title": "Corporate Farben",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "standard",
+                    "title": "Standard-Button"
+                },
+                {
+                    "group": "buttons",
+                    "name": "variations",
+                    "title": "Variationen"
+                }
+            ]
+        },
+        {
+            "name": "rating",
+            "title": "Rating",
+            "components": [
+                {
+                    "group": "rating",
+                    "name": "stars",
+                    "title": "Sterne"
+                }
+            ]
+        },
+        {
+            "name": "alerts",
+            "title": "Feedback",
+            "components": [
+                {
+                    "group": "alerts",
+                    "name": "note",
+                    "title": "Hinweis",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "utilites",
+            "title": "Utilities",
+            "components": [
+                {
+                    "group": "utilites",
+                    "name": "spacing",
+                    "title": "Spacing",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}
